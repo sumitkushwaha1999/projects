@@ -1,0 +1,235 @@
+@media only screen and (max-width: 768px) {
+    .carousel-caption .btn{
+        display: none;
+        visibility: collapse;
+    }
+    .carousel-caption h4{
+        display: none;
+        visibility: collapse;
+    }
+  }
+}
+.{
+    margin: 0;
+    padding: 0;
+}
+
+#xx{
+    max-width: 40px;
+    max-height: 40px;
+    padding: 0px;
+}
+#nav-bar{
+    position:sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-nav li{
+    padding :0 10px;
+    
+}
+
+.navbar-nav li a{
+    float:right;
+    text-align: left;
+    
+}
+#nav-bar ul li a:hover{
+    color:#007bff!important;
+   
+}
+.navbar{
+    background:#fff;
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+ color:#555!importanat;
+    font-weight: 600;
+    font-size: 16px;
+}
+#slider{
+    width:100%;
+}
+.carousel-caption{
+    top:50%;
+    transform: translateY(-50%);
+    bottom:initial!importanat;
+}
+.carousel-item active img{
+    opacity: 0.7;
+}
+.carousel-caption h2{
+    color:#fff;
+    
+}
+.btn {
+        transition-duration: 0.4s !important;
+        background-color:dimgrey!important;
+        color:white !important;
+  border:2px solid white !important;
+    border-radius: 50px!important;
+    width:200px !important;
+}
+.btn:hover{
+    
+    background-color: #4CAF50 !important; 
+  color: white !important;
+}
+
+.bt{
+    transition-duration: 0.4s;
+        background-color:darkturquoise !important;
+        color:white !important;
+  border:2px solid white !important;
+    border-radius: 50px!important;
+    width:200px;
+}
+.bt:hover{
+    background-color: #4CAF50 !important; 
+  color: white !important;
+}
+#about{
+    padding-top:50px;
+    padding-bottom: 50px;
+    color:#555;
+}
+#about .bt{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content{
+    padding-top:20px;
+}
+
+
+.skills-bar p{
+    margin:6px;
+    font-weight: 600;
+    
+}
+.progress-bar{
+    border-radius:16px;
+}
+.progress{
+    border-radius: 16px !important;
+    margin-bottom:20px;
+}
+#services{
+    background-image:  linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)
+        ),url(image/4.jpg);
+    background-size: cover;
+    background-position: center;
+    color:#efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#services h2::after{
+    
+    content:'';
+    background: #efefef;
+    display: block;
+    height:3px;
+    width:170px;
+    margin: 20px auto 5px;
+}
+.services{
+    margin-top: 40px;
+}
+.icon{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height:80px;
+    width: 80px;
+    
+    
+}
+#services p{
+    font-size: 18px;
+    margin-right: 20p;
+    color:#ccc;
+    
+}
+.services .col-md-3:hover{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.7s;
+}
+#team{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+h1{
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+h1::after{
+    content: ' ';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.profile-pic{
+    margin-top: 25px;
+}
+.profile-pic .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile-pic .img-box img{
+    filter:grayscale(1);
+}
+.profile-pic .img-box img:hover{
+    filter:grayscale(0);
+    cursor: pointer;
+}
+.profile-pic h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bff !important;
+}
+.profile-pic h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#team .fa{
+    height: 25px;
+    width: 25px;
+    color: #007bff !important;
+    background: #fff;
+    padding: 4px;
+    border-radius: 50% !important;
+}
+.img-box ul{
+    padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.img-box ul li{
+    padding: 5px;
+    display:inline-block;
+}
+.img-box:hover ul{
+    opacity :1;
+}
+.img-box ul, ..img-box ul li
+{transform: 0.5s;
+}
+
+
+
